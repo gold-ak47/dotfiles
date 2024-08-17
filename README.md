@@ -23,6 +23,8 @@ pip install --upgrade pip
 vim ~/.venv/pyvenv.cfg
 ```
 Set  `include-system-site-packages` to `true`
-LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
 
+Then run the lvim installer:
+```
+LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
 ```
