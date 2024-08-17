@@ -14,7 +14,7 @@ Brew, Anaconda, Rust, starship.rs, fish can all be installed by running
 ```
 bash
 
-ipython -m venv ~/.venv
+python -m venv ~/.venv
 source ~/.venv/bin/activate
 pip install --upgrade pip
 ```
